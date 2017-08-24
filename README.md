@@ -1,5 +1,7 @@
 # Itamae::Plugin::Recipe::Elixir
 
+[![Build Status](https://travis-ci.org/ohr486/itamae-plugin-recipe-elixir.svg?branch=master)](https://travis-ci.org/ohr486/itamae-plugin-recipe-elixir)
+
 Itamae plugin to install elixir
 
 ## Installation
