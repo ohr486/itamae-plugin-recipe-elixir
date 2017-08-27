@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["ohr486"]
   spec.email         = ["ohr486@gmail.com"]
 
-  spec.summary       = "Itamae plugin to install elixir"
-  spec.description   = "Itamae plugin to install elixir"
+  spec.summary       = %q{Itamae plugin to install elixir}
+  spec.description   = %q{Itamae plugin to install elixir}
   spec.homepage      = "https://github.com/ohr486/itamae-plugin-recipe-elixir"
   spec.license       = "MIT"
 
@@ -31,9 +31,10 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "itamae", "~> 1.2"
-  #spec.add_dependency "itamae-plugin-recipe-erlang", "~> 0.0.1"
+  spec.add_dependency "itamae-plugin-recipe-erlang", "~> 0.0.1"
 
   spec.add_development_dependency "bundler", "~> 1.15"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "serverspec"
 end

@@ -1,0 +1,21 @@
+box: drecom/centos-ruby:2.3.1
+no-response-timeout: 60
+command-timeout: 60
+
+default: &default
+  after-steps:
+    - script:
+      name: remove all vms
+      code: vagrant destroy -f
+
+build-centos7:
+  <<: *default
+  steps:
+    - script:
+      name: setup
+      code: ./ci/setup.sh
+    - bundle-install:
+      jobs: 4
+    - script:
+      name: build CentOS 7.0
+      code: ./ci/build.sh centos7
