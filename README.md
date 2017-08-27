@@ -1,6 +1,6 @@
 # Itamae::Plugin::Recipe::Elixir
 
-[![Build Status](https://travis-ci.org/ohr486/itamae-plugin-recipe-elixir.svg?branch=master)](https://travis-ci.org/ohr486/itamae-plugin-recipe-elixir)
+[![wercker status](https://app.wercker.com/status/039289dd22177e634eace49f4d657260/m/master "wercker status")](https://app.wercker.com/project/byKey/039289dd22177e634eace49f4d657260)
 
 Itamae plugin to install elixir
 
@@ -37,7 +37,7 @@ elixir:
   # target elixir version
   version: 1.5.1
 
-# you need install erlang to use elixir
+# you need to install erlang to use elixir
 # see: https://github.com/ohr486/itamae-plugin-recipe-erlang#node
 erlang:
   version: 20.0
