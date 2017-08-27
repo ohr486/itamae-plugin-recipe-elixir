@@ -1,5 +1,6 @@
 # Itamae::Plugin::Recipe::Elixir
 
+[![Gem Version](https://badge.fury.io/rb/itamae-plugin-recipe-elixir.svg)](https://badge.fury.io/rb/itamae-plugin-recipe-elixir)
 [![wercker status](https://app.wercker.com/status/039289dd22177e634eace49f4d657260/m/master "wercker status")](https://app.wercker.com/project/byKey/039289dd22177e634eace49f4d657260)
 
 Itamae plugin to install elixir
