@@ -1,8 +1,8 @@
 erlang:
-  version: 20.0
+  version: 20.2
   configure_options: ""
   enable_apps: ""
   disable_apps: ""
 
 elixir:
-  version: 1.5.1
+  version: 1.6.1
