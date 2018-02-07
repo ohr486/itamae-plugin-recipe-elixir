@@ -5,8 +5,8 @@ describe file("/etc/profile.d/elixir.sh") do
   its(:content) { should match /1\.6\.1/ }
 end
 
-describe command(". /etc/profile.d/kerl.sh && \
-                  . /etc/profile.d/elixir.sh && \
+describe command("source /etc/profile.d/kerl.sh && \
+                  source /etc/profile.d/elixir.sh && \
                   iex -v") do
   its(:stdout) { should contain("1.6.1") }
 end
