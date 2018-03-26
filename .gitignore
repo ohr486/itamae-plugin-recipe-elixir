@@ -57,6 +57,7 @@ Gemfile.lock
 
 # for ide
 .idel
+*.impl
 
 # for editor
 *.swp
