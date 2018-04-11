@@ -31,5 +31,5 @@ execute "# unizp file" do
   command "unzip #{elixir_version}.zip -d #{elixir_version}"
 end
 
-execute "/usr/local/elixir/#{elixir_version}/bin/mix local.hex --force"
-execute "/usr/local/elixir/#{elixir_version}/bin/mix local.rebar --force"
+execute "source /etc/profile.d/elixir.sh && mix local.hex --force"
+execute "source /etc/profile.d/elixir.sh && mix local.rebar --force"
