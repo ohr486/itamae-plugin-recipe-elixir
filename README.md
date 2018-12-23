@@ -36,7 +36,7 @@ include_recipe "elixir::install"
 # node.yml
 elixir:
   # target elixir version
-  version: 1.6.1
+  version: 1.7.1
 
 # you need to install erlang to use elixir
 # see: https://github.com/ohr486/itamae-plugin-recipe-erlang#node
