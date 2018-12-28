@@ -41,7 +41,7 @@ elixir:
 # you need to install erlang to use elixir
 # see: https://github.com/ohr486/itamae-plugin-recipe-erlang#node
 erlang:
-  version: 20.2
+  version: 21.2
   configure_options: ""
   enable_apps: ""
   disable_apps: ""
